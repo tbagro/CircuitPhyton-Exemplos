@@ -16,6 +16,12 @@ rele.direction = Direction.OUTPUT
 days = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
 current_time = rtc.datetime
 
+# Configure o tempo de desligamento do relé para 11:00
+# O preenchimento segue o formato (year, month, day, hour, minute, second, weekday, yearday, isdst)
+# Definimos apenas os campos necessários, e -1 indica campos que devem ser ignorados.
+
+# Preencha com o ano, mês e dia atual
+
 # Define o horário para ligar o relé (10:00)
 ligar_horario = time.struct_time((current_time.tm_year, current_time.tm_mon, current_time.tm_mday, 17, 20, 0, 0, -1, -1))
 
