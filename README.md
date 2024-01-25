@@ -16,3 +16,9 @@ Exemplos para RP2040 placa waveshare zero
 link para o instalador do circuitPhyton, com os exemplos
 
 https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/tag/20240123
+
+## Como  preparar a placa, envie o arquivo UF2 na placa em modo de boot, ela  aparecerá como um pendrive, é só copiar e colar o arquivo e a placa estara preparada.
+
+### Para funcionar  em modo de loop continuo o programa precisa ser salvo no arquivo Copy.py na mmemoria interna do raspibery.
+
+as bibliotecas necessarias estão disponiveis na pasta do circuitphyton disponibilizada no link acima, basta salvar as desejadas na pasta lib
