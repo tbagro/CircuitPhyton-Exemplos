@@ -23,8 +23,8 @@ relay = digitalio.DigitalInOut(relay_pin)
 relay.direction = digitalio.Direction.OUTPUT
 
 # Tempo de ligado (ton) e tempo de desligado (toff) em segundos
-ton = 1  # 1 segundo
-toff = 5  # 1 segundo
+ton = 1  # 1 segundo # intervalo de 1 seg - 999 horas
+toff = 5  # 1 segundo # intervalo de 1 seg - 999 horas
 
 # Inicializa o temporizador
 start_time = time.monotonic()
